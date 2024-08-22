@@ -15,7 +15,10 @@
     align-items: center;
     height: 100px;
     /* background-image: linear-gradient(to right bottom, #003612, #00531a, #007220, #009225, #00b327); */
-    background-image: url(imagem/fundo.jpg);
+    background-color: #006f4d;
+    border-bottom: 2px solid #006f4d;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 150px;
 }
 #item{
     display: flex;
@@ -24,25 +27,72 @@
     justify-content: space-between;
     gap: 120px;
     margin: 250px;
+    color: black;
 }
-#dinoimg{
-    width: 500px;
-    padding-top: 3px;
-}
-#barrinha{
-    background-color: rgb(22, 22, 22);
-    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4);
-}
+
 body{
-    background-color: rgb(7, 31, 1);
     align-items: center;
+    background-image: url(imagem/pegadaWhite.jpg);
 }
-.corpo{
+
+#imagemCorpo{
+    width: 50%;
+}
+
+
+/* .acima{
+    background-image: radial-gradient(circle, #051937, #003a5d, #005e78, #008284, #12a680);
+    font-family: sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid black;
+    
+} */
+
+.acima h1{
+    color: rgb(255, 254, 254);
+    text-align: center;
+}
+.corpoProdutos{
+    background-color: rgb(255, 255, 255);    
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    /* border: 1px solid black; */
+    height: 800px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.corpoProdutos h1{
+    color:black;
     display: flex;
+    padding: 0px 0px 0px 90px;
     align-items: center;
-    padding: 0px 0px 0px 600px;
+    
 }
-#nao{
-    display: flex;
-    align-items: baseline;
+#laterais{
+    background-color: rgb(231, 231, 231);
+    max-width: 1440px;
+    margin: auto;
+}
+
+.produto-item{
+    padding: 8px 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.produto-item .box-image-produto{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.produto-item .box-image-produto img{
+    width: 100%;
 }
